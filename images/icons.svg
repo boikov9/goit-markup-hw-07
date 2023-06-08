@@ -155,5 +155,9 @@
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M24 0l-24 11.25 7.67 2.367 11.83-9.242-8.998 10.116 0.007 0.002-0.009-0.002v5.509l4.301-4.182 5.449 1.682 3.75-17.5z"></path>
 </symbol>
 
+<symbol id="icon-charm_menu-hamburger" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+</symbol>
+
 </defs>
 </svg>

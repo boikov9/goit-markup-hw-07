@@ -57,13 +57,99 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="mobile-menu-open-btn js-open-menu">
+          <svg class="mobile-menu-open-btn-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
+
+
       </div>
+
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+
+          <button class="mobile-menu-close-btn js-close-menu">
+            <svg class="mobile-menu-close-icon" width="8px" height="8px">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu-menu list">
+            <li class="mobile-menu-li-studio">
+              <a
+                class="mobile-menu-menu-link link active"
+                href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-menu-li-portfolio">
+              <a class="mobile-menu-menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-menu-li-contacts">
+              <a class="mobile-menu-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="mobile-menu-mobile-menu-address">
+          <ul class="mobile-menu-contacts list">
+            <li>
+              <a class="mobile-menu-contacts-item-tel link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="mobile-menu-contacts-item-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            
+          </ul>
+        </address>
+
+        <ul class="mobile-menu-social list">
+          <li class="mobile-menu-social">
+            <a href="#" class="mobile-menu-social-link">
+              <svg class="mobile-menu-social-icon" height="24" width="24" >
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social">
+            <a href="#" class="mobile-menu-social-link">
+              <svg class="mobile-menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social">
+            <a href="#" class="mobile-menu-social-link">
+              <svg class="mobile-menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social">
+            <a href="#" class="mobile-menu-social-link">
+              <svg class="mobile-menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+                </div>
+      </div>
+
+
+
     </header>
 
     <main>
       <section class="first_section">
         <div class="content_wrapper container">
-          <h1 class="content_title">Effective Solutions for Your Business</h1>
+          <p class="content_title">Effective Solutions for Your Business</p>
           <button class="content_button" type="button" data-modal-open>
             Order Service
           </button>
@@ -149,40 +235,10 @@
         </div>
       </section>
 
-      <section class="third_section">
-        <div class="third_section_content_wrapper container">
-          <h2 class="third_section_header">What are we doing</h2>
 
-          <ul class="pictures list">
-            <li class="picture">
-              <img
-                src="./images/rectangle711.jpg"
-                alt="monitor"
-                width="360"
-                height="300"
-              />
-            </li>
-            <li class="picture">
-              <img
-                src="./images/rectangle712.jpg"
-                alt="chat"
-                width="360"
-                height="300"
-              />
-            </li>
-            <li class="picture">
-              <img
-                src="./images/rectangle713.jpg"
-                alt="mobile"
-                width="360"
-                height="300"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
 
-      <section class="fourth_section">
+
+       <section class="fourth_section">
         <div class="fourth_section_content_wrapper container">
           <h2 class="team_header">Our Team</h2>
 
@@ -345,7 +401,6 @@
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
-                    
                   </li>
                   <li class="social_list_item">
                     <a href="" class="social_list_link">
@@ -358,7 +413,6 @@
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
-
                   </li>
                   <li class="social_list_item">
                     <a href="" class="social_list_link">
@@ -524,7 +578,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
     </main>
 
     <footer class="footer">
@@ -597,7 +651,7 @@
       </div>
     </footer>
 
-    <div
+    <!-- <div
       class="backdrop is-hidden"
       data-modal
       style="
@@ -611,7 +665,7 @@
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
           visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
       "
-    >
+    > 
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="icon-close-modal" width="8" height="8">
@@ -709,9 +763,10 @@
           <button type="submit" class="form-submit-button">Send</button>
         </form>
 
-      </div>
-    </div>
+      </div> -->
+    </div> 
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
